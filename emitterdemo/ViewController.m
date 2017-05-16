@@ -9,16 +9,21 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property NSObject *obj;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [_obj setValue:@"haha" forKeyPath:@"key"];
+
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+
+    NSString* log = (NSString*)[self.obj valueForKey:@"key"];
+    NSLog(@"log = %@", log);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

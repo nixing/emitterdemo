@@ -15,6 +15,7 @@
 		6C62A4CF1E9CCE7300780037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C62A4CD1E9CCE7300780037 /* LaunchScreen.storyboard */; };
 		6C62A4DA1E9CCE7300780037 /* emitterdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C62A4D91E9CCE7300780037 /* emitterdemoTests.m */; };
 		6C62A4E51E9CCE7300780037 /* emitterdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C62A4E41E9CCE7300780037 /* emitterdemoUITests.m */; };
+		6C62A4F31E9CCF5600780037 /* Spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C62A4F21E9CCF5600780037 /* Spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6C62A4E01E9CCE7300780037 /* emitterdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emitterdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C62A4E41E9CCE7300780037 /* emitterdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emitterdemoUITests.m; sourceTree = "<group>"; };
 		6C62A4E61E9CCE7300780037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C62A4F21E9CCF5600780037 /* Spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		6C62A4BE1E9CCE7300780037 /* emitterdemo */ = {
 			isa = PBXGroup;
 			children = (
+				6C62A4F21E9CCF5600780037 /* Spark.png */,
 				6C62A4C21E9CCE7300780037 /* AppDelegate.h */,
 				6C62A4C31E9CCE7300780037 /* AppDelegate.m */,
 				6C62A4C51E9CCE7300780037 /* ViewController.h */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					6C62A4BB1E9CCE7300780037 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3XRSENRV6A;
 						ProvisioningStyle = Automatic;
 					};
 					6C62A4D41E9CCE7300780037 = {
@@ -249,6 +253,7 @@
 				6C62A4CF1E9CCE7300780037 /* LaunchScreen.storyboard in Resources */,
 				6C62A4CC1E9CCE7300780037 /* Assets.xcassets in Resources */,
 				6C62A4CA1E9CCE7300780037 /* Main.storyboard in Resources */,
+				6C62A4F31E9CCF5600780037 /* Spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +431,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XRSENRV6A;
 				INFOPLIST_FILE = emitterdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yz.game.lzjh.emitterdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.show.liaoliao.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +444,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XRSENRV6A;
 				INFOPLIST_FILE = emitterdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yz.game.lzjh.emitterdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.show.liaoliao.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
